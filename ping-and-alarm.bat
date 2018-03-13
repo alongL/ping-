@@ -2,21 +2,21 @@
 @echo off 
 
 
-title ¡¡ÍøÂç¼à²â±¨¾¯
+title ã€€ç½‘ç»œç›‘æµ‹æŠ¥è­¦
 
-rem ×ÔÐÐÉèÖÃÒª¼à²âµÄÖ÷»úIPµØÖ·
+rem è‡ªè¡Œè®¾ç½®è¦ç›‘æµ‹çš„ä¸»æœºIPåœ°å€
 set IP=10.20.10.1
 
 
 :start
 echo -----------------------------------------------------------------------------
-echo ÕýÔÚ¶Ô%IP%½øÐÐÍøÂç²âÊÔ
+echo æ­£åœ¨å¯¹%IP%è¿›è¡Œç½‘ç»œæµ‹è¯•
 ping %IP% -n 1
 
 if errorlevel 1 (
-				echo £¡£¡£¡£¡£¡£¡ÍøÂçÖÐ¶Ï£¡£¡£¡£¡£¡£¡
+				echo ï¼ï¼ï¼ï¼ï¼ï¼ç½‘ç»œä¸­æ–­ï¼ï¼ï¼ï¼ï¼ï¼
 				vbPlay.vbs "ringout.wav" ) else (
-	REM  ÔÝÍ£60ÃëÔÙ½øÐÐÍøÂç²âÊÔ
+	REM  æš‚åœ60ç§’å†è¿›è¡Œç½‘ç»œæµ‹è¯•
 	ping 127.1 -n 60
 )
 
