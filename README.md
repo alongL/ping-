@@ -6,4 +6,5 @@ You need just modify the IP in .bat file.
 
 vbsPlay.vbs will play ringout.wav to alarm.
 
-This is used in Windows XP and Windows 7.
+This is tested in Windows XP , Windows 7 and Windows 10.
+It's very good to use.
