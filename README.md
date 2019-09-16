@@ -1,4 +1,4 @@
-# ping-network monitoring and alarm
+# network monitoring and alarm
 
 this program use ping.exe to monitor the network and alarm when net is down
 
